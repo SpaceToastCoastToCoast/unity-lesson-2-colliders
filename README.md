@@ -35,3 +35,8 @@ OnTriggerStay fires once per frame while an object is staying in its volume. Unl
 OnTriggerExit fires once, when an object that has already entered the trigger leaves the trigger area. You might use this to change an enemy's behavior when the player exits its range.
 
 Lastly, we should look at `Debug.Log()`. This function will print values to the console, whose tab is next to the Game view. Debug.Log is a powerful tool for figuring out what might be causing unexpected behavior in your game. Here, we'll just use it to print informational messages.
+
+Once you have created your Goal script and added it to your trigger, you should now be able to see the messages you put in the Debug.Log for each trigger scenario when you check the Console tab. What you have now is the foundation for a maze game. Now that you know about colliders, you can build some walls that are both visible and invisible and create your own maze.
+
+###Bonus round
+If you have created your maze, you can let your classmates test it out. Move the Console tab to another pane so that you can see its messages while playing the game in the editor. Give each other feedback on the design choices of the maze. You must be able to solve your own maze before letting your classmates try it, so don't make it impossible!
