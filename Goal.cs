@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class Goal : MonoBehavior {
+public class Goal : MonoBehaviour {
 
   private int timer = 0;
   private int timeLimit = 60;
